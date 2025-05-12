@@ -9,7 +9,7 @@ def test_greeting_nor():
 def test_greeting_default():
     assert greeting("Max", "German") == "I don't speak your language!"
 
-# add unit tests to cover exception in greeting(name, language) in second/second.py
+# add unit tests to cover exceptions in greeting(name, language) in second/second.py
 # start by importing pytest: import pytest
 # in your new test function include: with pytest.raises(<exception name>):
 # continue by using assert
