@@ -6,4 +6,6 @@ RUN apt-get update \
         silversearcher-ag \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean \
-    && pip install --no-cache-dir pytest==7.4.3
+    && pip install --no-cache-dir \
+        pytest==7.4.3 \
+        pyyaml==6.0.2
