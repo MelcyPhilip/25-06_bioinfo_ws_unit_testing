@@ -9,3 +9,4 @@ RUN apt-get update \
     && pip install --no-cache-dir \
         pytest==7.4.3 \
         pyyaml==6.0.2
+    && usermod -s /usr/bin/fish root
