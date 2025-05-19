@@ -13,4 +13,4 @@ def greeting(name, language):
             return "Hei {}!".format(name)
         # default case
         case _:
-            return "I don't speak your language!".format(name)
+            return "I don't speak your language!"
