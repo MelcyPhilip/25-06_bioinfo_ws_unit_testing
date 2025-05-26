@@ -22,6 +22,7 @@ def test_greeting_language_wrong_type():
 # also import nullcontext: from contextlib import nullcontext
 # add parametrize decorator as header to your test function: @pytest.mark.parametrize()
 # define variables for input, exception and output as a string: "input, exception, output"
+# in our case it would be: "name, language, exception, output"
 # create list containing tuples with test cases
 # each tuple is a test case: ("<name>", "<language>", <exception or nullcontext>, <excepted output>)
 # remove the old test after you have completed the task
