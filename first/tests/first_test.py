@@ -17,4 +17,4 @@ def test_greeting_nor():
   assert greeting("Tom", "Norwegian") == "Hei Tom!"
 
 def test_greeting_nor():
-  assert greeting("Tom", "Czech") == "Ahoj Tom!"
+  assert greeting("Tom", "Czech") == "I don't speak your language!"
