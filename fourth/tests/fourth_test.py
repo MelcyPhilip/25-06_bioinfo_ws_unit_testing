@@ -29,7 +29,7 @@ def test_calculator(input_x, input_y, input_operation, exception, output):
     with exception:
         assert calculator(input_x, input_y, input_operation) == output
 
-yml_path = "/workspaces/25-06_bioinfo_ws_unit_testing/.github/workflows/main.yml"
+yml_path = "fourth/tests/main.yml"
 
 @pytest.mark.parametrize(
     "input_filepath, exception, output",
