@@ -1,6 +1,7 @@
 FROM python:3.14.0a2-slim
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
+        curl \
         git \
         fish \
         silversearcher-ag \
